@@ -11,5 +11,10 @@ Repositorio para o EP1 de Metodos Formais para Computacao pelo IME-USP ministrad
 
 =======
 
-Notas.: A gambiarra agora esta localizada no clauses.c na linha 463, ainda nao foi resolvida.
-        O relatorio ainda deve ser feito.
+A gambiarra agora esta localizada no clauses.c na linha 463 e ainda nao foi resolvida. 
+        
+Flags utilizadas: gcc -o clauses.o -c clauses.c
+		  gcc -o matrix.o -c matrix.c
+                  gcc -o sudoku sudoku.c clauses.o matrix.o
+
+O relatorio ainda deve ser feito.
