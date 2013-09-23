@@ -2,13 +2,21 @@
 #define CLAUSES_H_INCLUDED
 #include <stdio.h>
 
-void cnf(int **sudoku);
-int cells(FILE *p);
-int rows(FILE *p);
-int columns(FILE *p);
-int boxes(FILE *p);
-int unempty_cells(FILE *p, int **sudoku);
+/*
+Lucas Hiroshi Hayashida - nUSP 7557630 
+Renan Fichberg - nUSP 7991131
+MAC0239 - Métodos Formais
+Primeiro EP - Sudoku
+2013/2.
+*/
 
+void cnf(int **);
+int cells(FILE *);
+int rows(FILE *);
+int columns(FILE *);
+int boxes(FILE *);
+int unempty_cells(FILE *, int **);
+int converter(int, int, int);
 
 
 

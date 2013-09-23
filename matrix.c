@@ -3,6 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+Lucas Hiroshi Hayashida - nUSP 7557630 
+Renan Fichberg - nUSP 7991131
+MAC0239 - Métodos Formais
+Primeiro EP - Sudoku
+2013/2.
+*/
+
 /*Gera matriz, inicialmente vazia*/
 int **gen_matrix()
 {
